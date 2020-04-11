@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WMS]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="crm.qa.loginTestcase.HomePageTest">
+        <methods>
+          <include name="ValidateHomePageTitle"/>
+          <include name="AfterTestCaseRun"/>
+          <include name="verifyUserName"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- crm.qa.loginTestcase.HomePageTest -->
+      <class name="crm.qa.loginTestcase.LoginPageTestCase">
+        <methods>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- crm.qa.loginTestcase.LoginPageTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [WMS] -->

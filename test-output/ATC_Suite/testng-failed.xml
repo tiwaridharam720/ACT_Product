@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ATC_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="crm.qa.ExtentReporterNG.ExtentReporterNG"/>
+  </listeners>
+  <test name="ATC_Test(failed)">
+    <classes>
+      <class name="crm.qa.ProductPageTest.Product_PageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectSubMenu"/>
+          <include name="setup"/>
+          <include name="ProductAndVerifyDescription" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- crm.qa.ProductPageTest.Product_PageTest -->
+    </classes>
+  </test> <!-- ATC_Test(failed) -->
+</suite> <!-- Failed suite [ATC_Suite] -->

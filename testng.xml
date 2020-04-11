@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ATC_Suite">
+
+ <listeners>
+      <listener class-name="crm.qa.ExtentReporterNG.ExtentReporterNG" />
+</listeners>
+
+  <test thread-count="5" verbose="5" name="ATC_Test">
+ 
+  
+    <classes>
+      <class name="crm.qa.ProductPageTest.Product_PageTest"/>
+    </classes>
+  </test> <!-- ATC_Test -->
+</suite> <!-- ATC_Suite -->
